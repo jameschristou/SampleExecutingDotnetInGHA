@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionIt
 		..\readme.md = ..\readme.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".gha", ".gha", "{80135B49-8752-4CB0-BE89-4EDD6975C7ED}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{80135B49-8752-4CB0-BE89-4EDD6975C7ED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{7AA074A6-CA8F-4E3E-A751-CDD285DA74ED}"
 	ProjectSection(SolutionItems) = preProject
-		..\.github\workflows\build.yml = ..\.github\workflows\build.yml
+		.github\workflows\build.yml = .github\workflows\build.yml
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleDotnetApp", "ExampleDotnetApp\ExampleDotnetApp.csproj", "{085EBCD8-7F53-437B-B37E-7D5B95A91831}"
