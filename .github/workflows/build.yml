@@ -1,0 +1,28 @@
+name: build
+
+on: [push, workflow_dispatch]
+
+jobs:
+
+  runDotnetApp:
+    name: RunDotnetApp
+    runs-on: ubuntu-latest
+    steps:
+        - name: Checkout actions
+          uses: actions/checkout@v4
+
+        - name: Restore ExampleDotnetApp
+          shell: bash
+          run: |
+              dotnet restore ./ExampleDotnetApp/ExampleDotnetApp.csproj --verbosity m
+
+        - name: Build ExampleDotnetApp
+          shell: bash
+          run: |
+              dotnet build ./ExampleDotnetApp/ExampleDotnetApp.csproj --configuration Release --no-restore
+
+        - name: Run ExampleDotnetApp
+          shell: bash
+          run: |
+              dotnet run ./ExampleDotnetApp/ExampleDotnetApp.csproj --configuration Release --no-restore --no-build
+    

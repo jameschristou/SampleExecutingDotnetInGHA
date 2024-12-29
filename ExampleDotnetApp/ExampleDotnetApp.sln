@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleDotnetApp", "ExampleDotnetApp\ExampleDotnetApp.csproj", "{B02154AB-DA46-44A1-972E-96DF511FEC69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{63B69C64-B3AB-4AF8-8C4E-B52039C94153}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\readme.md = ..\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".gha", ".gha", "{80135B49-8752-4CB0-BE89-4EDD6975C7ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{7AA074A6-CA8F-4E3E-A751-CDD285DA74ED}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\build.yml = ..\.github\workflows\build.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B02154AB-DA46-44A1-972E-96DF511FEC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02154AB-DA46-44A1-972E-96DF511FEC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02154AB-DA46-44A1-972E-96DF511FEC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02154AB-DA46-44A1-972E-96DF511FEC69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AA074A6-CA8F-4E3E-A751-CDD285DA74ED} = {80135B49-8752-4CB0-BE89-4EDD6975C7ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F1D9F48-5B72-4FAA-89EE-BEF41F17E935}
+	EndGlobalSection
+EndGlobal
